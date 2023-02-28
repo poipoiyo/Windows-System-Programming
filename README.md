@@ -11,8 +11,9 @@ Reference: [windows system programming](https://www.books.com.tw/products/001050
 2. For `--start`, program will act as server named pipe to receive other commands.
 
 3. For `--player`, `--monster`, programs will act as client named pipe to send characters information.
+- Example: `$demo.exe --player 100 20`, the player will have 100 points of Hp, and 20 points of Atk.
 
-4. Ather `--fight`, threads will be started, and player will battle with monster.
+4. Aher `--fight`, threads will be started, and player will battle with monster.
 
 5. During fighting, there will be some lock to prevent player from attacking or getting hurt all the time.
 
